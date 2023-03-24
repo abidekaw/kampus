@@ -1,0 +1,8 @@
+data = 10
+data setiap halaman = 2
+
+halaman = data / data setiap halaman // 5
+halaman aktif = GET['page']? GET['page'] : 1
+
+// halaman 2 -> data index 2 || halaman 3 -> data index 4
+data awal = data setiap halaman * halaman aktif - data setiap halaman

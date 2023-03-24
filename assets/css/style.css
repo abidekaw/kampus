@@ -1,0 +1,71 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: sans-serif;
+}
+body {
+   max-width: 80%;
+   margin: 0 auto;
+}
+
+h1 {
+   text-align: center;
+}
+
+.wrap {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 25px;
+}
+a,
+button {
+   text-decoration: none;
+   color: #333;
+   cursor: pointer;
+   display: inline-block;
+}
+
+form {
+   width: fit-content;
+   margin: 0 auto;
+   padding: 25px;
+}
+label {
+   display: block;
+}
+input[type='text'],
+input[type='password'],
+button {
+   width: 100%;
+}
+input,
+button {
+   padding: 5px;
+   margin-bottom: 10px;
+}
+
+#content {
+   overflow-x: auto;
+}
+table {
+   margin: 0 auto;
+   width: 100%;
+}
+th,
+td {
+   padding: 5px;
+   width: 200px;
+}
+
+.pagination {
+   margin-top: 10px;
+   font-size: larger;
+}
+
+.loader {
+   width: 40px;
+   display: none;
+   position: absolute;
+   margin-left: 10px;
+}
